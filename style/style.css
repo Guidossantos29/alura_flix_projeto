@@ -23,6 +23,7 @@ body {
     height: 100vh;
     display: flex;
     justify-content: center;
+    background-image: url(../img/Background.png);
     
 }
 .conteiner_img_principal{
@@ -52,7 +53,7 @@ body {
     justify-content: center;
     margin-top: 0.8rem;
     font-size: 12px;
-    color: var(--cinza-secundario);
+    color:white;
 }
 
 .container__titulo {
@@ -60,4 +61,23 @@ body {
     font-weight: 700;
     
 }
+
+/*seccion_secundaria abaixo*/
+
+.container__secundario{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    
+
+}
+
+.container__secundario__img{
+    width: 80%;
+    margin-left: 100px;
+}
+.container__secundario__titulo{
+    margin-bottom: 1rem;
+}
+
 
